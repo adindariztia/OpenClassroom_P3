@@ -5,34 +5,75 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <link rel="stylesheet" type="text/css" href="main.css">
     <title>Watch it Outside! Film Festival</title>
   </head>
   <body>
     <!-- header section -->
-    <div class="container">
-      <div class="row">
-        <div class="col navbar">
-          Ini Navbar
-        </div>
+    <div class="bg-dark">
+      <div class="container">
+          <div class="row">
+            <nav class="navbar navbar-expand navbar-dark bg-dark col">
+              <img src="resource/bootstrap-solid.svg" width="30" height="30" alt="" loading="lazy">
+              <a class="navbar-brand" href="#">Watch it Outside!</a>
+              
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Programs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Ticketing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0 ml-auto">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+                </form>
+              </div>
+            </nav>
+          </div>
       </div>
-
+    </div>
+    <div class="container">
+      <!-- overview video -->
+      <div class="jumbotron rounded-0 h-100">
+        <h1 class="text-light">Watch it Outside! Boston Edition</h1>
+      </div>
       <!-- festival guide section  -->
-      <div class="row">
-        <div class="col-6">
-          Award
-        </div>
-        <div col="col-6">
-          Festival Guide
+      <div class="alert alert-primary border-warning rounded-0">
+        <div class="row">
+          <div class="col-6">
+            <button type="button" class="btn btn-secondary btn-lg mx-auto">Award</button>
+          </div>
+          <div class="col-6 mx-auto">
+            <button type="button" class="btn btn-secondary btn-lg">Festival Guide</button>
+          </div>
         </div>
       </div>
 
       <!-- Curator's messages -->
-      <div class="row">
-        <div class="ini-buat-cards-nanti-pokoknya">
-          ini disini nanti ada cards pokoknya
+      <div class="card bg-dark text-white">
+        <img src="..." class="card-img" alt="...">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Curator's Messages</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text">Last updated 3 mins ago</p>
         </div>
       </div>
 
