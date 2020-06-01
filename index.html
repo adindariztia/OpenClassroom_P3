@@ -54,20 +54,28 @@
       </div>
     </div>
     <div class="container">
+      <div class="welcome-text text-center mx-auto p-3">
+       
+        <h1 class="d-inline">Watch it Outside!</h1> <h1 class="d-inline text-warning">Boston Edition</h1>
+      </div>
+      
       <!-- overview video -->
 
       <div class="embed-responsive embed-responsive-16by9">
         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BBs5hxdHncM" allowfullscreen></iframe>
       </div>
-
+      <div class="text-center p-2">
+        <h3 class="text-warning">5-8 August 2020</h3>
+        <h3><strong>Boston Public Garden</strong></h3>
+      </div>
       <!-- festival guide section  -->
       <div class="alert alert-primary border-warning rounded-0">
         <div class="row">
-          <div class="col-6">
-            <button type="button" class="btn btn-secondary btn-lg mx-auto">Award</button>
+          <div class="col-12 col-sm-6 text-center">
+            <button type="button" class="btn btn-dark btn-lg m-1">Award</button>
           </div>
-          <div class="col-6 mx-auto">
-            <button type="button" class="btn btn-secondary btn-lg">Festival Guide</button>
+          <div class="col-12 col-sm-6 mx-auto text-center">
+            <button type="button" class="btn btn-dark btn-lg m-1">Festival Guide</button>
           </div>
         </div>
       </div>
@@ -127,52 +135,196 @@
           </div>
         </div>
       </div>
+      
+      <!-- panel buat list film yang akan ditayangin -->
+      <div class="p-5">
+        <div class="row m-1">
+          <div class="col-6 col-md-3 p-1">
+            <img class="img-fluid" src="resource/movies/mov-1.jpg">
+          </div>
+          <div class="col-6 col-md-3 p-1">
+            <img class="img-fluid" src="resource/movies/mov-2.jpg">
+          </div>
+          <div class="col-6 col-md-3 p-1">
+            <img class="img-fluid" src="resource/movies/mov-3.jpg">
+          </div>
+          <div class="col-6 col-md-3 p-1">
+            <img class="img-fluid" src="resource/movies/mov-4.jpg">
+          </div>
+        </div>
+        <div class="row m-1">
+          <div class="col-6 col-md-3 p-1">
+            <img class="img-fluid" src="resource/movies/mov-5.jpg">
+          </div>
+          <div class="col-6 col-md-3 p-1">
+            <img class="img-fluid" src="resource/movies/mov-6.jpg">
+          </div>
+          <div class="col-6 col-md-3 p-1">
+            <img class="img-fluid" src="resource/movies/mov-7.jpg">
+          </div>
+          <div class="col-6 col-md-3 p-1">
+            <img class="img-fluid" src="resource/movies/mov-8.jpg">
+          </div>
+        </div>
+        <div class="text-center">
+          <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Show more</button>
+        </div>
+        
+      </div>
+      
 
       <!-- panel berita -->
-      <div class="row">
-        <div class="col">
-          Disini nanti slider twitter buat berita berita
+      <div id="carouselExampleIndicators" class="carousel slide pt-5 pb-5" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card bg-dark">
+              <img class="card-img-top" src="resource/slider_1.jpg" alt="Card image cap">
+              <div class="card-body pl-5 pt-5">
+                <h5 class="card-title text-warning">Ticket Presale is Now Open!</h5>
+                <p class="card-text text-light">With supporting text below as a natural lead-in to additional content.</p>
+                <div class="text-center">
+                  <a href="#" class="btn btn-outline-warning my-2 my-sm-0" type="submit">Read more..</a>  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card bg-dark">
+              <img class="card-img-top" src="resource/slider_2.jpg" alt="Card image cap">
+              <div class="card-body pl-5 pt-5">
+                <h5 class="card-title text-warning">Biggest Film Festival in Town is Back!</h5>
+                <p class="card-text text-light">With supporting text below as a natural lead-in to additional content.</p>
+                <div class="text-center">
+                  <a href="#" class="btn btn-outline-warning my-2 my-sm-0" type="submit">Read more..</a>  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card bg-dark">
+              <img class="card-img-top" src="resource/slider_3.jpg" alt="Card image cap">
+              <div class="card-body pl-5 pt-5">
+                <h5 class="card-title text-warning">Movie Screening Schedule is Now Available</h5>
+                <p class="card-text text-light">With supporting text below as a natural lead-in to additional content.</p>
+                <div class="text-center">
+                  <a href="#" class="btn btn-outline-warning my-2 my-sm-0" type="submit">Read more..</a>  
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-
-      <!-- panel buat list film yang akan ditayangin -->
-      <div class="row">
-        <div class="col">
-          film
-        </div>
-        <div class="col">
-          film
-        </div>
-        <div class="col">
-          film
-        </div>
-        <div class="col">
-          film
-        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
 
       <!-- ticketing/admission form -->
-      <div class="row">
-        <div class="col">
-          ini form pokoknya
-        </div>
-      </div>
-
-      <!-- organizer's logo -->
-      <div class="row">
-        <div class="col">
-          disini logo-logo penyelenggara sama sponsor-sponsor gitu
-        </div>
-      </div>
-
-      <!-- footer -->
-      <div class="row">
-        <div class="col">
-          footerrrr pokoknya footer
-        </div>
+      <div class="form-panel container rounded p-5">
+        <h5 class="d-inline text-light">Do you feel the excitement? </h5> <h5 class="d-inline text-warning">Register here!</h5>
+        <form class="p-3 text-light">
+          <div class="form-group row">
+            <label for="staticEmail" class="col-sm-2 col-form-label">Name</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="staticEmail" placeholder="Jane Doe">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="staticEmail" placeholder="patrick@underthesea.com">
+            </div>
+          </div>
+          
+          <div class="form-group row">
+            <label for="staticEmail" class="col-sm-2 col-form-label">Festival Day</label>
+            <div class="col-sm-10">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                  <label class="form-check-label" for="inlineCheckbox1">5 August</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                  <label class="form-check-label" for="inlineCheckbox1">6 August</label>
+              </div>
+              <div class="form-check disabled">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                  <label class="form-check-label" for="inlineCheckbox1">7 August</label>
+              </div>
+              <div class="form-check disabled">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                  <label class="form-check-label" for="inlineCheckbox1">8 August</label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                I have read and understand Watch it Outside Film Festival's regulations
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-outline-warning">Register</button>
+        </form>
       </div>
     </div>
-    
+
+     <!-- organizer's logo -->
+     <div class="row bg-light p-5 mt-5">
+      <div class="container">
+        <div class="col">
+          <p><strong><u>Organized by:</u></strong></p>
+          <div id="logo_organized">
+            <img src="resource/bootstrap-solid.svg" width="70" height="70">
+          </div>
+          <p class="pt-3"><strong><u>Supported by:</u></strong></p>
+          <div id="logo_supported">
+            <img src="resource/city-of-boston.png" width="50" >
+            <img class="pl-2 pr-2" src="resource/logo_jaff-jogja.png" width="100" >
+            <img src="resource/logo-bekraf.png" width="80" >
+          </div>
+        </div>
+     </div> 
+    </div>
+    <!-- footer -->
+    <div class="bg-dark">
+      <div class="container">
+        <div class="row pt-5 pb-5 text-light">
+          <div class="col-12 col-md-4">
+            <p class="text-warning"><strong><u>Special Thanks</u></strong></p>
+            <div class="footer-content">
+              <p class="p-0"><a href="https://www.boston.com/">Boston City</a></p>
+              <p class="p-0"><a href="https://www.boston.gov/parks/public-garden">Boston Public Garden</a></p>
+            </div> 
+          </div>
+          <div class="col-12 col-md-8">
+            <p class="text-warning"><strong><u>Contact us</u></strong></p>
+            <div class="footer-content">
+              <div class="social-media">
+                <img class="img-fluid mr-2" height="20" width="20"src="/resource/logo_instagram.svg"><a class="d-inline" href="#">@WatchitOutside</a>
+              </div>              
+              <div class="social-media">
+                <img class="img-fluid mr-2" height="20" width="20"src="/resource/logo_facebook.png"><a class="d-inline" href="#">Watch it Outside Boston</a>
+              </div>
+              <div class="social-media">
+                <img class="img-fluid mr-2" height="20" width="20"src="/resource/logo_twitter.png"><a class="d-inline" href="#">@WatchitOutside_official</a>
+              </div>
+            </div>   
+          </div>
+        </div>
+      </div>      
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
