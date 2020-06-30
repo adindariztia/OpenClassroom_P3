@@ -53,3 +53,15 @@ body {
 .social-media {
     padding-bottom: 10px;
 }
+
+.panel-film .nav-link {
+    background-color: #342b38;
+    color: yellow;
+    border-color: yellow;
+}
+
+.news-img {
+    height:300px;
+    width: 100%;
+    object-fit: cover;
+}
